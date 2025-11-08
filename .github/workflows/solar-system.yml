@@ -6,6 +6,10 @@ on:
     branches:
       - main
       - 'feature/*'
+
+permissions:
+  contents: read
+  packages: write
     
 jobs:
     unit-testing:
